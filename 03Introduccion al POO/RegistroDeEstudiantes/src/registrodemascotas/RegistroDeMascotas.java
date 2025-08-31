@@ -7,7 +7,7 @@ package registrodemascotas;
 public class RegistroDeMascotas {
     
     public static void main(String[] args){
-         Mascotas mascota = new Mascotas("lucas", "perro", 2);
+         Mascotas mascota = new Mascotas(2, "perro", 2);
          mascota.mostrarInfo();
          System.out.println("");
          

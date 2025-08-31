@@ -11,7 +11,7 @@ public class Libro {
     public Libro(String titulo, String autor, int anioPublicacion){
         this.titulo = titulo;
         this.autor = autor;
-        this.anioPublicacion = anioPublicacion;
+        setAnioPublicacion(this.anioPublicacion);
     }
 
     public void mostrarInfo(){
